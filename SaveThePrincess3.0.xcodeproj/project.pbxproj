@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28560BBF1F02EE7200DEDD7C /* SoldierCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28560BBD1F02EE7200DEDD7C /* SoldierCell.swift */; };
+		28560BC01F02EE7200DEDD7C /* SoldierCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28560BBE1F02EE7200DEDD7C /* SoldierCell.xib */; };
+		28917BF61EFED17200806DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28917BF51EFED17200806DB3 /* AppDelegate.swift */; };
+		28917BFD1EFED17200806DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28917BFC1EFED17200806DB3 /* Assets.xcassets */; };
+		28917C001EFED17200806DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28917BFE1EFED17200806DB3 /* LaunchScreen.storyboard */; };
+		28917C091EFED18900806DB3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C071EFED18900806DB3 /* Realm.framework */; };
+		28917C0A1EFED18900806DB3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C081EFED18900806DB3 /* RealmSwift.framework */; };
+		28917C0B1EFED19000806DB3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C071EFED18900806DB3 /* Realm.framework */; };
+		28917C0C1EFED19000806DB3 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C071EFED18900806DB3 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28917C0D1EFED19000806DB3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C081EFED18900806DB3 /* RealmSwift.framework */; };
+		28917C0E1EFED19000806DB3 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28917C081EFED18900806DB3 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28917C141EFED1BD00806DB3 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28917C111EFED1BD00806DB3 /* Soldier.swift */; };
+		28917C151EFED1BD00806DB3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28917C121EFED1BD00806DB3 /* HomeViewController.swift */; };
+		28917C161EFED1BD00806DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28917C131EFED1BD00806DB3 /* Main.storyboard */; };
+		28C00EE51F063D20004587BF /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C00EE41F063D20004587BF /* LaunchViewController.swift */; };
+		28C3B5861EFEEF000001F1F4 /* NewSoldierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C3B5851EFEEF000001F1F4 /* NewSoldierViewController.swift */; };
+		28C3B5881EFEEFD30001F1F4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C3B5871EFEEFD30001F1F4 /* Extension.swift */; };
+		28EFED931F041D6A0043FAD8 /* ShieldLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFED921F041D6A0043FAD8 /* ShieldLayer.swift */; };
+		28F1B8AA1F067CFF0011D979 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1B8A91F067CFF0011D979 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28917C0F1EFED19000806DB3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28917C0E1EFED19000806DB3 /* RealmSwift.framework in Embed Frameworks */,
+				28917C0C1EFED19000806DB3 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28560BBD1F02EE7200DEDD7C /* SoldierCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoldierCell.swift; sourceTree = "<group>"; };
+		28560BBE1F02EE7200DEDD7C /* SoldierCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoldierCell.xib; sourceTree = "<group>"; };
+		28917BF21EFED17200806DB3 /* SaveThePrincess3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveThePrincess3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28917BF51EFED17200806DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28917BFC1EFED17200806DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28917BFF1EFED17200806DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28917C011EFED17200806DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28917C071EFED18900806DB3 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		28917C081EFED18900806DB3 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		28917C111EFED1BD00806DB3 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		28917C121EFED1BD00806DB3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		28917C131EFED1BD00806DB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28C00EE41F063D20004587BF /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		28C3B5851EFEEF000001F1F4 /* NewSoldierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoldierViewController.swift; sourceTree = "<group>"; };
+		28C3B5871EFEEFD30001F1F4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		28EFED921F041D6A0043FAD8 /* ShieldLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldLayer.swift; sourceTree = "<group>"; };
+		28F1B8A91F067CFF0011D979 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28917BEF1EFED17200806DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28917C0B1EFED19000806DB3 /* Realm.framework in Frameworks */,
+				28917C0A1EFED18900806DB3 /* RealmSwift.framework in Frameworks */,
+				28917C0D1EFED19000806DB3 /* RealmSwift.framework in Frameworks */,
+				28917C091EFED18900806DB3 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28917BE91EFED17200806DB3 = {
+			isa = PBXGroup;
+			children = (
+				28917BF41EFED17200806DB3 /* SaveThePrincess3.0 */,
+				28917BF31EFED17200806DB3 /* Products */,
+				28917C071EFED18900806DB3 /* Realm.framework */,
+				28917C081EFED18900806DB3 /* RealmSwift.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		28917BF31EFED17200806DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28917BF21EFED17200806DB3 /* SaveThePrincess3.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28917BF41EFED17200806DB3 /* SaveThePrincess3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				28917BF51EFED17200806DB3 /* AppDelegate.swift */,
+				28C3B5871EFEEFD30001F1F4 /* Extension.swift */,
+				28EFED921F041D6A0043FAD8 /* ShieldLayer.swift */,
+				28F1B8A91F067CFF0011D979 /* Constant.swift */,
+				28CFBC9F1EFF0D050071BA24 /* Model */,
+				28CFBCA01EFF0D160071BA24 /* Controllers */,
+				28917C131EFED1BD00806DB3 /* Main.storyboard */,
+				28917BFC1EFED17200806DB3 /* Assets.xcassets */,
+				28917BFE1EFED17200806DB3 /* LaunchScreen.storyboard */,
+				28917C011EFED17200806DB3 /* Info.plist */,
+			);
+			path = SaveThePrincess3.0;
+			sourceTree = "<group>";
+		};
+		28C00EE61F064373004587BF /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				28C00EE41F063D20004587BF /* LaunchViewController.swift */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		28CFBC9F1EFF0D050071BA24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28917C111EFED1BD00806DB3 /* Soldier.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28CFBCA01EFF0D160071BA24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28C00EE61F064373004587BF /* Launch */,
+				28CFBCA51EFF24120071BA24 /* Home */,
+				28CFBCA71EFF29220071BA24 /* New Soldier */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		28CFBCA51EFF24120071BA24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28CFBCA61EFF241D0071BA24 /* Cell */,
+				28917C121EFED1BD00806DB3 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		28CFBCA61EFF241D0071BA24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				28560BBD1F02EE7200DEDD7C /* SoldierCell.swift */,
+				28560BBE1F02EE7200DEDD7C /* SoldierCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		28CFBCA71EFF29220071BA24 /* New Soldier */ = {
+			isa = PBXGroup;
+			children = (
+				28C3B5851EFEEF000001F1F4 /* NewSoldierViewController.swift */,
+			);
+			name = "New Soldier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28917BF11EFED17200806DB3 /* SaveThePrincess3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28917C041EFED17200806DB3 /* Build configuration list for PBXNativeTarget "SaveThePrincess3.0" */;
+			buildPhases = (
+				28917BEE1EFED17200806DB3 /* Sources */,
+				28917BEF1EFED17200806DB3 /* Frameworks */,
+				28917BF01EFED17200806DB3 /* Resources */,
+				28917C0F1EFED19000806DB3 /* Embed Frameworks */,
+				28917C101EFED1A300806DB3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveThePrincess3.0;
+			productName = SaveThePrincess3.0;
+			productReference = 28917BF21EFED17200806DB3 /* SaveThePrincess3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28917BEA1EFED17200806DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "julien simmer";
+				TargetAttributes = {
+					28917BF11EFED17200806DB3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 28917BED1EFED17200806DB3 /* Build configuration list for PBXProject "SaveThePrincess3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28917BE91EFED17200806DB3;
+			productRefGroup = 28917BF31EFED17200806DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28917BF11EFED17200806DB3 /* SaveThePrincess3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28917BF01EFED17200806DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28917C161EFED1BD00806DB3 /* Main.storyboard in Resources */,
+				28917C001EFED17200806DB3 /* LaunchScreen.storyboard in Resources */,
+				28560BC01F02EE7200DEDD7C /* SoldierCell.xib in Resources */,
+				28917BFD1EFED17200806DB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28917C101EFED1A300806DB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28917BEE1EFED17200806DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C3B5861EFEEF000001F1F4 /* NewSoldierViewController.swift in Sources */,
+				28917C151EFED1BD00806DB3 /* HomeViewController.swift in Sources */,
+				28F1B8AA1F067CFF0011D979 /* Constant.swift in Sources */,
+				28C3B5881EFEEFD30001F1F4 /* Extension.swift in Sources */,
+				28560BBF1F02EE7200DEDD7C /* SoldierCell.swift in Sources */,
+				28EFED931F041D6A0043FAD8 /* ShieldLayer.swift in Sources */,
+				28917C141EFED1BD00806DB3 /* Soldier.swift in Sources */,
+				28917BF61EFED17200806DB3 /* AppDelegate.swift in Sources */,
+				28C00EE51F063D20004587BF /* LaunchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28917BFE1EFED17200806DB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28917BFF1EFED17200806DB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28917C021EFED17200806DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28917C031EFED17200806DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28917C051EFED17200806DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SaveThePrincess3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaveThePrincess3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28917C061EFED17200806DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SaveThePrincess3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaveThePrincess3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28917BED1EFED17200806DB3 /* Build configuration list for PBXProject "SaveThePrincess3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28917C021EFED17200806DB3 /* Debug */,
+				28917C031EFED17200806DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28917C041EFED17200806DB3 /* Build configuration list for PBXNativeTarget "SaveThePrincess3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28917C051EFED17200806DB3 /* Debug */,
+				28917C061EFED17200806DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28917BEA1EFED17200806DB3 /* Project object */;
+}
