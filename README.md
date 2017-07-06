@@ -3,7 +3,6 @@
 
 Very Basic Game in Swift, useless for sure<br>
 Run pod install to build Realm Framework and use the .xcworkspace<br>
-Ruleset at rules.pdf
 
 <br>
 <img src="screen.png">
